@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nextgen-platform/jwt-validator-middleware/config"
-	"github.com/nextgen-platform/jwt-validator-middleware/jwks_cache"
+	"github.com/atmoz-org/jwt-validator-middleware/config"
+	"github.com/atmoz-org/jwt-validator-middleware/jwks_cache"
 )
 
 // Context key types to avoid collisions.

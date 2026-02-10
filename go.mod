@@ -1,4 +1,4 @@
-module github.com/nextgen-platform/jwt-validator-middleware
+module github.com/atmoz-org/jwt-validator-middleware
 
 go 1.23
 

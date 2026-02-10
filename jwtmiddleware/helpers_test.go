@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/nextgen-platform/jwt-validator-middleware/jwks_cache"
+	"github.com/atmoz-org/jwt-validator-middleware/jwks_cache"
 	"github.com/stretchr/testify/require"
 )
 

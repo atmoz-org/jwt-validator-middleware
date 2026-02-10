@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nextgen-platform/jwt-validator-middleware/config"
+	"github.com/atmoz-org/jwt-validator-middleware/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

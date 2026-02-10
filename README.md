@@ -23,7 +23,7 @@ The middleware needs:
 In your Go service:
 
 ```bash
-go get github.com/nextgen-platform/jwt-validator-middleware
+go get github.com/atmoz-org/jwt-validator-middleware
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ go get github.com/nextgen-platform/jwt-validator-middleware
 Set `JWT_ISSUER`, `JWT_AUDIENCE`, and optionally `JWKS_REFRESH_INTERVAL`, then:
 
 ```go
-import "github.com/nextgen-platform/jwt-validator-middleware/jwtmiddleware"
+import "github.com/atmoz-org/jwt-validator-middleware/jwtmiddleware"
 
 mw, err := jwtmiddleware.NewFromEnv()
 if err != nil {
@@ -46,8 +46,8 @@ http.Handle("/api/", mw.RequireAuth(yourHandler))
 
 ```go
 import (
-    "github.com/nextgen-platform/jwt-validator-middleware/config"
-    "github.com/nextgen-platform/jwt-validator-middleware/jwtmiddleware"
+    "github.com/atmoz-org/jwt-validator-middleware/config"
+    "github.com/atmoz-org/jwt-validator-middleware/jwtmiddleware"
 )
 
 mw, err := jwtmiddleware.New("https://your-issuer.example.com/", "your_api_audience_here", 5*time.Minute)
